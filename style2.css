@@ -14,6 +14,16 @@ span {
 	font-size: 2rem;
 }
 
+section {
+	color: black;
+}
+
+hr {
+	border-color: black;
+	border-width: 2px;
+}
+
+
 
 .boxmodel {
 	background-color: #47b7db;
@@ -28,10 +38,10 @@ span {
 }
 
 .boxmodelB {
-	background-color: rgb(5,5,5);
+	background-color: #47b7db;
 	border: 2px solid black;
 	border-style: outset;
-	display: inline-block;
+	display: inline-flex;
 	padding: 20px 25px;
 	border-radius: 5px;
 	margin: 5px 20px;
